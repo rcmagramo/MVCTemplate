@@ -37,7 +37,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Firstname</label>
+                                <label for="exampleInputEmail1">FirstName</label>
                                 <%: Html.TextBoxFor(model => model.Firstname, new { @class = "form-control", @placeholder="Enter Firstname", @required = "true"}) %>
                                 <%: Html.ValidationMessageFor(model => model.Firstname, "", new { @class = "text-danger" }) %>
                             </div>
@@ -83,7 +83,7 @@
                                 <%: Html.ValidationMessageFor(model => model.CPassword, "", new { @class = "text-danger" }) %>
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputFile">File input</label>
+                                <label for="exampleInputFile">Browse Image</label>
                                 <input type="file" id="ImageData" name="ImageData">
                             </div>
                         </div>
