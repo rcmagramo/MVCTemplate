@@ -22,6 +22,7 @@
            { %>
         <div class="body bg-gray">
             <div class="form-group">
+                <a href="../../Content/"></a>
                 <label for="exampleInputEmail1">Email</label>
                 <%: Html.TextBoxFor(model => model.Email, new { @class = "form-control", @placeholder="Enter Email", @required = "true"}) %>
                 <%: Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" }) %>

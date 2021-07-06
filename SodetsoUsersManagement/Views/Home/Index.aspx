@@ -6,14 +6,14 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-<!-- Small boxes (Stat box) -->
+    <!-- Small boxes (Stat box) -->
     <div class="row">
         <div class="col-lg-3 col-xs-6">
             <!-- small box -->
             <div class="small-box bg-aqua">
                 <div class="inner">
                     <h4><%: Model.UsersList %>
-                                    </h4>
+                    </h4>
                     <p>
                         Users List
                                    
@@ -50,7 +50,7 @@
             <div class="small-box bg-yellow">
                 <div class="inner">
                     <h4><%: Model.InActiveUsers %>
-                                    </h4>
+                    </h4>
                     <p>
                         Inactive Users
                                    
@@ -69,7 +69,7 @@
             <div class="small-box bg-red">
                 <div class="inner">
                     <h4><%: Model.ArchivedUsers %>
-                                    </h4>
+                    </h4>
                     <p>
                         Archived Users
                                    

@@ -33,6 +33,16 @@
                 <li><a href="/UsersManagement/ArchivedUsers"><i class="fa fa-angle-double-right"></i>Archived Users</a></li>
             </ul>
         </li>
+         <li class="treeview">
+            <a href="#">
+                <i class="fa fa-shopping-cart"></i>
+                <span>Purchase Order</span>
+                <i class="fa fa-angle-left pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="#"><i class="fa fa-angle-double-right"></i>Add Purchase Order</a></li>
+            </ul>
+        </li>
         <li>
             <a href="/Home/SignOut">
                 <i class="fa fa-power-off"></i><span>Logout</span>

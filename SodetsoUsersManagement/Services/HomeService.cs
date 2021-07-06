@@ -41,10 +41,7 @@ namespace SodetsoUsersManagement.Services
                 }
 
                 return __LoginResultModel;
-
             }
-
-           
         }
 
         public DashboardModels DashboardStats()

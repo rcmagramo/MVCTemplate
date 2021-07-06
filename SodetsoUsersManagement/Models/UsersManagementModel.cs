@@ -14,7 +14,7 @@ namespace SodetsoUsersManagement.Models
     public class AddUserModel
     {
         [Required]
-        [Display(Name = "Firstname LANG")]
+        [Display(Name = "Firstname")]
         public string Firstname { get; set; }
 
         public string Middlename { get; set; }
