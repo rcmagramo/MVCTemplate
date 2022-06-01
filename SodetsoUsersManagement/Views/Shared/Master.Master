@@ -20,7 +20,7 @@
     <link href="../../Content/css/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
 
 </head>
-<body class="skin-blue">
+<body class="skin-black">
 
     <!-- header logo: style can be found in header.less -->
     <%: Html.Partial("_HeaderPartial") %>

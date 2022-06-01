@@ -36,11 +36,34 @@
          <li class="treeview">
             <a href="#">
                 <i class="fa fa-shopping-cart"></i>
-                <span>Purchase Order</span>
+                <span>System Tools</span>
                 <i class="fa fa-angle-left pull-right"></i>
             </a>
             <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-angle-double-right"></i>Add Purchase Order</a></li>
+                <li class="treeview"><a href="#"><i class="fa fa-angle-left pull-right"></i>Property Category</a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Add Property Category</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Property Category List</a></li>
+                    </ul>
+                </li>
+                <li class="treeview"><a href="#"><i class="fa fa-angle-left pull-right"></i>Property Name</a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Add Property Name</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Property Name List</a></li>
+                    </ul>
+                </li>
+                <li class="treeview"><a href="#"><i class="fa fa-angle-left pull-right"></i>Property Location</a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Add Property Location</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Property Location List</a></li>
+                    </ul>
+                </li>
+                <li class="treeview"><a href="#"><i class="fa fa-angle-left pull-right"></i>Suppliers</a>
+                    <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Add Suppliers</a></li>
+                        <li><a href="#"><i class="fa fa-angle-double-right">&nbsp</i>Supplier List</a></li>
+                    </ul>
+                </li>
             </ul>
         </li>
         <li>

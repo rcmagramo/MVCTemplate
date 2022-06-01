@@ -45,7 +45,8 @@ namespace SodetsoUsersManagement.Services
         {
             List<GenderModel> report = new List<GenderModel> {
                 new GenderModel{ GenderID="Male",Description = "Male"},
-                new GenderModel{ GenderID="Female",Description = "Female"}
+                new GenderModel{ GenderID="Female",Description = "Female"},
+                 new GenderModel{ GenderID="Prefer not to tell",Description = "Prefer not to tell"}
                 };
             return report;
         }
